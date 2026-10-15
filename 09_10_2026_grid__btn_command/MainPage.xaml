@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="main.MainPage"
+			 Padding="20">
+
+	<Border BackgroundColor="Black" WidthRequest="-1" HeightRequest="-1">
+		<Grid Column="9" Row="9" Padding="10">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+
+			<Grid.RowDefinitions>
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+
+			<!-- top -->
+			<Border Grid.Column="0" Grid.Row="0" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="1" Grid.Row="0" Margin="5" Grid.ColumnSpan="7">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="8" Grid.Row="0" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+
+			<!-- left -->
+			<Border Grid.Column="0" Grid.Row="0" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="0" Grid.Row="1" Margin="5" Grid.RowSpan="7">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="0" Grid.Row="8" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+
+			<!-- right -->
+			<Border Grid.Column="8" Grid.Row="0" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="8" Grid.Row="1" Margin="5" Grid.RowSpan="7">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="8" Grid.Row="8" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+
+			<!-- bottom -->
+			<Border Grid.Column="0" Grid.Row="8" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="1" Grid.Row="8" Margin="5" Grid.ColumnSpan="7">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+			<Border Grid.Column="8" Grid.Row="8" Margin="5">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+
+			<!-- center -->
+			<Border Grid.Column="1" Grid.Row="4" Margin="5" Grid.ColumnSpan="7">
+				<Rectangle Fill="IndianRed"></Rectangle>
+			</Border>
+
+		</Grid>
+	</Border>
+
+</ContentPage>
