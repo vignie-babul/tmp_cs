@@ -13,9 +13,9 @@ namespace main
 		{
 		//InitializeComponent(); // для MainPage.xaml
 
-		//ConstraintLayout main = new ConstraintLayout() {
-		//    BackgroundColor = Colors.LightGray,
-		//};
+		// ConstraintLayout main = new ConstraintLayout() {
+		// 	BackgroundColor = Colors.LightGray,
+		// };
 
 		//var RECT_SIZE = 0f;
 
@@ -39,39 +39,39 @@ namespace main
 
 		//FluentConstraintSet set = new FluentConstraintSet();
 
-		//set.Select(rect_top_left)
-		//    .Width(RECT_SIZE).Height(RECT_SIZE)
-		//    .XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
-		//    .LeftToLeft(main).TopToTop(main)
-		//    .RightToLeft(rect_center).BottomToTop(rect_center);
+		// set.Select(rect_top_left)
+		// 	.Width(RECT_SIZE).Height(RECT_SIZE)
+		// 	.XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
+		// 	.LeftToLeft(main).TopToTop(main)
+		// 	.RightToLeft(rect_center).BottomToTop(rect_center);
 
-		//set.Select(rect_top_right)
-		//    .Width(RECT_SIZE).Height(RECT_SIZE)
-		//    .XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
-		//    .RightToRight(main).TopToTop(main)
-		//    .LeftToRight(rect_center).BottomToTop(rect_center);
+		// set.Select(rect_top_right)
+		// 	.Width(RECT_SIZE).Height(RECT_SIZE)
+		// 	.XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
+		// 	.RightToRight(main).TopToTop(main)
+		// 	.LeftToRight(rect_center).BottomToTop(rect_center);
 
-		//set.Select(rect_bottom_left)
-		//    .Width(RECT_SIZE).Height(RECT_SIZE)
-		//    .XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
-		//    .LeftToLeft(main).BottomToBottom(main)
-		//    .RightToLeft(rect_center).TopToBottom(rect_center);
+		// set.Select(rect_bottom_left)
+		// 	.Width(RECT_SIZE).Height(RECT_SIZE)
+		// 	.XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
+		// 	.LeftToLeft(main).BottomToBottom(main)
+		// 	.RightToLeft(rect_center).TopToBottom(rect_center);
 
-		//set.Select(rect_bottom_right)
-		//    .Width(RECT_SIZE).Height(RECT_SIZE)
-		//    .XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
-		//    .RightToRight(main).BottomToBottom(main)
-		//    .LeftToRight(rect_center).TopToBottom(rect_center);
+		// set.Select(rect_bottom_right)
+		// 	.Width(RECT_SIZE).Height(RECT_SIZE)
+		// 	.XWeight(RECT_CORNER_WEIGHT).YWeight(RECT_CORNER_WEIGHT)
+		// 	.RightToRight(main).BottomToBottom(main)
+		// 	.LeftToRight(rect_center).TopToBottom(rect_center);
 
-		//set.Select(rect_center)
-		//    .Width(RECT_SIZE).Height(RECT_SIZE)
-		//    .XWeight(RECT_CENTER_WEIGHT).YWeight(RECT_CENTER_WEIGHT)
-		//    .LeftToRight(rect_top_left).RightToLeft(rect_top_right)
-		//    .TopToBottom(rect_top_left).BottomToTop(rect_bottom_left);
+		// set.Select(rect_center)
+		// 	.Width(RECT_SIZE).Height(RECT_SIZE)
+		// 	.XWeight(RECT_CENTER_WEIGHT).YWeight(RECT_CENTER_WEIGHT)
+		// 	.LeftToRight(rect_top_left).RightToLeft(rect_top_right)
+		// 	.TopToBottom(rect_top_left).BottomToTop(rect_bottom_left);
 
-		//set.ApplyTo(main);
+		// set.ApplyTo(main);
 
-		//Content = main;
+		// Content = main;
 
 
 
@@ -151,12 +151,12 @@ namespace main
 
 		// --------------------------------------------------------------------- flow
 		//Flow f2 = new Flow();
-		//for(int i = 0;i < 10;i++) {
-		//    var b = new Button() { Text = $"Button {i + 1}" };
-		//    main.Add(b);
-		//    set.Select(b).Width(100).Height(50);
-		//    f2.RefElement(b);
-		//}
+		// for(int i = 0;i < 10;i++) {
+		// 	var b = new Button() { Text = $"Button {i + 1}" };
+		// 	main.Add(b);
+		// 	set.Select(b).Width(100).Height(50);
+		// 	f2.RefElement(b);
+		// }
 		//main.Add(f2);
 
 		//f2.SetWrapMode(Flow.WrapAligned);
