@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="main.MainPage"
+			 Padding="20">
+
+	<VerticalStackLayout Spacing="20">
+		<Picker x:Name="restaurant"
+				Title="Restaurant"
+				ItemsSource="{Binding restaurants}"
+				ItemDisplayBinding="{Binding Name}"
+				SelectedIndexChanged="SetRestaurantCategories">
+			
+		</Picker>
+
+		<Picker x:Name="category"
+				Title="Category"
+				ItemDisplayBinding="{Binding Name}"
+				SelectedIndexChanged="SetCategoriesDishes">
+
+		</Picker>
+
+		<Picker x:Name="dish"
+				Title="Dish"
+				ItemDisplayBinding="{Binding Name}"
+				SelectedIndexChanged="SetDishDescription">
+
+		</Picker>
+
+		<Border Stroke="DarkGray"
+				StrokeThickness="1"
+				Padding="10">
+
+			<Border.StrokeShape>
+				<RoundRectangle CornerRadius="5"/>
+			</Border.StrokeShape>
+
+			<VerticalStackLayout Spacing="10">
+				<Label Text="Информация о блюде:"
+					   FontAttributes="Bold">
+
+				</Label>
+				<Label x:Name="dish_description"
+					   Text="Выберите блюдо"
+					   TextColor="LightGray">
+
+				</Label>
+			</VerticalStackLayout>
+		</Border>
+	</VerticalStackLayout>
+
+</ContentPage>
