@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="main.MainPage"
+			 Padding="20">
+
+	<VerticalStackLayout Spacing="10">
+
+		<Entry Text="{Binding Id}"/>
+		<Entry Text="{Binding Name}"/>
+		<Entry Text="{Binding Age}"/>
+
+		<HorizontalStackLayout Spacing="10">
+			<Button Text="Prev" Command="{Binding Prev}"/>
+			<Button Text="Next" Command="{Binding Next}"/>
+		</HorizontalStackLayout>
+
+		<ListView ItemsSource="{Binding Users}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<HorizontalStackLayout Spacing="20">
+							<Label Text="{Binding Id}"/>
+							<Label Text="{Binding Name}"/>
+							<Label Text="{Binding Age}"/>
+						</HorizontalStackLayout>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+
+	</VerticalStackLayout>
+		
+</ContentPage>
